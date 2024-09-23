@@ -33,8 +33,8 @@ def main():
 
 def get_share_params():
     ticker = input("Which share shall we test [TSLA]: ").upper()
-    start_date = input("Start investment month [2017-01-01]: ")
-    end_date = input("End investment month [2024-09-01]: ")
+    start_date = input("Start investment day [2017-01-01]: ")
+    end_date = input("End investment day [2024-09-01]: ")
     interval = input("Invest every [3] months: ") + "ME"
     amount = int(input("Your amount to invest [300]: "))
     return ticker, start_date, end_date, interval, amount
